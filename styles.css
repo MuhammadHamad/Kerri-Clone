@@ -108,6 +108,7 @@ body {
   width: 100%;
   z-index: 10;
   transition: 0.3s;
+  color: white;
 }
 
 /* This navScroll class will be added when the page is scrolled */
