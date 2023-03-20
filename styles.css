@@ -92,7 +92,6 @@ body {
 }
 
 .OverlayBlack nav {
-  background-color: transparent;
   width: 100%;
   margin-bottom: 150px;
 }
@@ -107,6 +106,15 @@ body {
   left: 0;
   right: 0;
   width: 100%;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+/* This navScroll class will be added when the page is scrolled */
+.navScroll {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.327);
 }
 
 .nav-items > ul {
@@ -119,7 +127,6 @@ body {
   margin: 0 15px;
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
   transition: all ease-in-out 0.2s;
 }
 
