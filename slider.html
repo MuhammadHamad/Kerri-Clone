@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Main {
+            height: 400px;
+            width: 800px;
+            border: 1px solid;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            height: 100%;
+            width: 2400px;
+            border: 1px solid;
+            animation: slid 9s linear infinite;
+        }
+
+        @keyframes slid {
+            0% {
+                margin-left: 0;
+            }
+
+            32% {
+                margin-left: 0;
+            }
+
+            33% {
+                margin-left: -800px;
+            }
+
+            65% {
+                margin-left: -800px;
+            }
+
+            66% {
+                margin-left: -1600px;
+            }
+
+            100% {
+                margin-left: -1600px;
+            }
+        }
+
+        .box {
+            height: 100%;
+            width: 800px;
+            display: inline-block;
+        }
+
+        .box:nth-child(1) {
+            background-color: green;
+        }
+
+        .box:nth-child(2) {
+            background-color: red;
+            margin-left: -5px;
+        }
+
+        .box:nth-child(3) {
+            margin-left: -5px;
+            background-color: yellow;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="Main">
+        <div class="slider">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
