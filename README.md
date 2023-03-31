@@ -1,4 +1,4 @@
-KERRI CLONE :
+--- KERRI CLONE ---
 
 This project is a replica of a website using HTML, plain CSS, and Javascript. The website was chosen for its modern look and feel. Animations and responsiveness were added to enhance the user experience.
 
